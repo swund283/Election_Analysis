@@ -73,7 +73,7 @@ with open(file_to_save, "w") as txt_file:
         # Determine winning vote count, winning percentage, and winning candidate.
         if (county_vote > winning_county_count):
             winning_county_count = county_vote
-            winning_county = county_name   
+            winning_county = county   
     # Print the winning candidate's results to the terminal.
     winning_county_summary = (
         f"-------------------------\n"
